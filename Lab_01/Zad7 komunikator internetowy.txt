@@ -1,0 +1,33 @@
+Klasa: Uzytkownik
+Stan: 
+- nazwaUzytkownika
+- idUzytkownika
+- statusDostepnosci
+- avatar
+Odpowiedzialności: 
+- przechowywanie danych profilowych użytkownika
+- zarządzanie statusem dostępności
+
+Klasa: Konwersacja
+Stan: 
+- idKonwersacji
+- uczestnicy
+- nazwaGrupy
+- historiaWiadomosci
+Odpowiedzialności: 
+- grupowanie wiadomości i uczestników w ramach jednego czatu
+- zarządzanie listą członków konwersacji
+
+Klasa: Wiadomosc
+Stan: 
+- idWiadomosci
+- tekst
+- czasWyslania
+- czyPrzeczytana
+Odpowiedzialności: 
+- przechowywanie treści i metadanych pojedynczej wiadomości
+- rejestrowanie statusu dostarczenia i odczytu wiadomości
+
+Zależności:
+- Klasa Konwersacja zawiera odniesienia do listy obiektów Uzytkownik oraz kolekcji obiektów Wiadomosc
+- Klasa Wiadomosc posiada odniesienie do swojego nadawcy

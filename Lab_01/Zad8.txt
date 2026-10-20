@@ -1,0 +1,10 @@
+System wypożyczalni samochodów:
+marka, model, numerRejestracyjny, cena, dostepnasc.
+
+Gra wyścigowa:
+akceleracja, deceleracja, predkosc, posx, posy
+
+System warsztatu samochodowego:
+rokProdukcji, rodzajSilnika, wymienioneCzesci
+
+Nie istnieje jedna „poprawna” klasa Samochod pasująca do każdego programu ponieważ chcemy ograniczyć ilość przechowywać danych tylko do tych które są nam niezbędne w danym podejściu

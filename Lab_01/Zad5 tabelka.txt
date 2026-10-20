@@ -1,0 +1,4 @@
+i = 0: x = 2, wynik = 0; wynik = 0 + 2 = 2x = 2 * 2 = 4; x = 4, wynik = 2
+i = 1: x = 4, wynik = 2; wynik = 2 + 4 = 6x = 4 * 2 = 8; x = 8, wynik = 6
+i = 2: x = 8, wynik = 6; wynik = 6 + 8 = 14x = 8 * 2 = 16; x = 16, wynik = 14
+i = 3: x = 16, wynik = 14; wynik = 14 + 16 = 30x = 16 * 2 = 32; x = 32, wynik = 30
